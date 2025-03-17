@@ -38,50 +38,41 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//The two target categories.
 			targetCats : {
 				rightAttTargets: {
-					name : 'Pleasant', 
+					name : 'Positive', 
 					title : {
-						media : {word : 'Pleasant'}, //Name of the attribute presented in the task.
+						media : {word : 'Positive'}, //Name of the attribute presented in the task.
 						css : {color:'#0000FF','font-size':'3em'} //Style of the attribute title.
 					}, 
 					mediaArray : [
-						{word: 'Paradise'},
-						{word: 'Pleasure'},
-						{word: 'Cheer'},
-						{word: 'Friend'},
-						{word: 'Splendid'},
-						{word: 'Love'},
-						{word: 'Glee'},
-						{word: 'Smile'},
-						{word: 'Enjoy'},
-						{word: 'Delight'},
-						{word: 'Beautiful'},
-						{word: 'Attractive'},
-						{word: 'Likeable'},
-						{word: 'Wonderful'}
+						{word: 'Excellent'},
+						{word: 'Pleasurable'},
+						{word: 'Happy'},
+						{word: 'Kind'},
+						{word: 'Brave'},
+						{word: 'Good'},
+						{word: 'Affectionate'},
+						{word: 'Friendly'},
+						{word: 'Benevolent'}
 					], 
 					stimulusCSS : {color:'#0000FF','font-size':'2em'}
 				}, 
 				leftAttTargets : {
-					name : 'Unpleasant', 
+					name : 'Negative', 
 					title : {
-						media : {word : 'Unpleasant'}, //Name of the attribute presented in the task.
+						media : {word : 'Negative'}, //Name of the attribute presented in the task.
 						css : {color:'#0000FF','font-size':'3em'} //Style of the attribute title.
 					}, 
 					mediaArray : [
-						{word: 'Bomb'},
-						{word: 'Abuse'},
-						{word: 'Sadness'},
-						{word: 'Pain'},
-						{word: 'Poison'},
-						{word: 'Grief'},
-						{word: 'Ugly'},
-						{word: 'Dirty'},
-						{word: 'Stink'},
-						{word: 'Noxious'},
-						{word: 'Humiliate'},
-						{word: 'Annoying'},
-						{word: 'Disgusting'},
-						{word: 'Offensive'}
+						{word: 'Stinky'},
+						{word: 'Terrible'},
+						{word: 'Awful'},
+						{word: 'Malevolent'},
+						{word: 'Horrible'},
+						{word: 'Bitter'},
+						{word: 'Evil'},
+						{word: 'Cruel'},
+						{word: 'Nasty'},
+						{word: 'Spiteful'}
 					],
 					stimulusCSS : {color:'#0000FF','font-size':'2em'}
 				}
