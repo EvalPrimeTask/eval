@@ -45,14 +45,14 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					}, 
 					mediaArray : [
 						{word: 'Excellent'},
-						{word: 'Pleasurable'},
-						{word: 'Happy'},
-						{word: 'Kind'},
-						{word: 'Brave'},
-						{word: 'Good'},
-						{word: 'Affectionate'},
-						{word: 'Friendly'},
-						{word: 'Benevolent'}
+						{word: 'Gifted'},
+						{word: 'Talented'},
+						{word: 'Skilled'},
+						{word: 'Smart'},
+						{word: 'Great'},
+						{word: 'Strong'},
+						{word: 'Clever'},
+						{word: 'Confident'}
 					], 
 					stimulusCSS : {color:'#0000FF','font-size':'2em'}
 				}, 
@@ -63,16 +63,16 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						css : {color:'#0000FF','font-size':'3em'} //Style of the attribute title.
 					}, 
 					mediaArray : [
-						{word: 'Stinky'},
+						{word: 'Stupid'},
 						{word: 'Terrible'},
 						{word: 'Awful'},
-						{word: 'Malevolent'},
+						{word: 'Worthless'},
 						{word: 'Horrible'},
-						{word: 'Bitter'},
-						{word: 'Evil'},
-						{word: 'Cruel'},
-						{word: 'Nasty'},
-						{word: 'Spiteful'}
+						{word: 'Trash'},
+						{word: 'Idiotic'},
+						{word: 'Insecure'},
+						{word: 'Jealous'},
+						{word: 'Inadequate'}
 					],
 					stimulusCSS : {color:'#0000FF','font-size':'2em'}
 				}
@@ -98,7 +98,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				//Block 1
 				firstBlock : '<div><p style="font-size:1.3em; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
 				'Put your middle or index fingers on the <b>E</b> and <b>I</b> keys of your keyboard. ' + 
-				'Pairs of items (words and images) will appear one after another. ' + 
+				'Pairs of items (words) will appear one after another. ' + 
 				'For each pair of items, ignore the first item and categorize the second item as posAttribute'  + 
 				' or negAttribute.<br/><br/>' + 
 				'When the second item you see belongs to the category "negAttribute", press <b>E</b>; ' + 
