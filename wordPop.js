@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/EvalPrimeTask/eval/wordsStay.js'], function(APIConstructor, epExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/EvalPrimeTask/eval@latest/wordsStay.js'], function(APIConstructor, epExtension){
 	var API = new APIConstructor();
 	var global = API.getGlobal();
 	return epExtension(
