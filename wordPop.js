@@ -25,14 +25,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/EvalPrimeTask/eval/wordsStay.js']
 					mediaArray : [
     					{word : 'Triumph'}, 
     					{word : 'Accomplishment'}, 
-    					{word : 'Attainment'}, 
     					{word : 'Fulfillment'}, 
     					{word : 'Victory'}, 
     					{word : 'Success'}, 
-    					{word : 'Completion'}, 
     					{word : 'Win'}, 
     					{word : 'Skill'}, 
-    					{word : 'Award'}
+    					{word : 'Epic'}
     				]
 				}
 			],	
